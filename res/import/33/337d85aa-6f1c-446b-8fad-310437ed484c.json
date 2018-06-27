@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sym_sn_s2_light",
+    "texture": "139fe4543",
+    "rect": [
+      146,
+      146,
+      138,
+      141
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      140,
+      150
+    ]
+  }
+}

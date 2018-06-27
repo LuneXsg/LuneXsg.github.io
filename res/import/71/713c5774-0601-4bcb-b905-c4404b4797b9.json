@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sym_sn_t_blur",
+    "texture": "139fe4543",
+    "rect": [
+      120,
+      897,
+      75,
+      100
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      140,
+      140
+    ]
+  }
+}
