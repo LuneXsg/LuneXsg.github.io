@@ -6,7 +6,7 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>其他實作項目 - XSGames</title>
+<title>Implementation - XSGames</title>
 <link href="../../css/bootstrap-custom.min.css" rel="stylesheet"/>
 <link href="../../css/font-awesome.min.css" rel="stylesheet"/>
 <link href="../../css/base.css" rel="stylesheet"/>
@@ -49,22 +49,22 @@
 <a href="../">Index</a>
 </li>
 <li>
-<a href="../extensible/">擴展性</a>
+<a href="../extensible/">Extensible</a>
 </li>
 <li>
-<a href="../high_availability/">高可用</a>
+<a href="../high_availability/">High availability</a>
 </li>
 <li class="active">
-<a href="./">其他實作項目</a>
+<a href="./">Implementation</a>
 </li>
 <li>
-<a href="../infra/">基礎設施</a>
+<a href="../infrastructure/">Infrastructure</a>
 </li>
 <li>
-<a href="../reliability/">可靠性</a>
+<a href="../reliability/">Reliability</a>
 </li>
 <li>
-<a href="../security/">安全性</a>
+<a href="../security/">Security</a>
 </li>
 </ul>
 </li>
@@ -75,10 +75,10 @@
 <a href="../../code/">Index</a>
 </li>
 <li>
-<a href="../../code/scan/">靜態掃描</a>
+<a href="../../code/scan/">Scan</a>
 </li>
 <li>
-<a href="../../code/test/">單元測試</a>
+<a href="../../code/test/">Test</a>
 </li>
 </ul>
 </li>
@@ -89,13 +89,13 @@
 <a href="../../content/">Index</a>
 </li>
 <li>
-<a href="../../content/config/">參數設定</a>
+<a href="../../content/config/">Config</a>
 </li>
 <li>
-<a href="../../content/game/">遊戲內容</a>
+<a href="../../content/game/">Game</a>
 </li>
 <li>
-<a href="../../content/rtp/">機率</a>
+<a href="../../content/rtp/">Rtp</a>
 </li>
 </ul>
 </li>
@@ -106,13 +106,13 @@
 <a href="../../devops/">Index</a>
 </li>
 <li>
-<a href="../../devops/cd/">持續佈署</a>
+<a href="../../devops/continuous_delivery/">Continuous delivery</a>
 </li>
 <li>
-<a href="../../devops/ci/">持續整合</a>
+<a href="../../devops/continuous_integration/">Continuous integration</a>
 </li>
 <li>
-<a href="../../devops/env/">開發環境</a>
+<a href="../../devops/environment/">Environment</a>
 </li>
 </ul>
 </li>
@@ -123,13 +123,13 @@
 <a href="../../quality/">Index</a>
 </li>
 <li>
-<a href="../../quality/integration/">集成測試</a>
+<a href="../../quality/integration/">Integration</a>
 </li>
 <li>
-<a href="../../quality/performance/">性能測試</a>
+<a href="../../quality/performance/">Performance</a>
 </li>
 <li>
-<a href="../../quality/tools/">測試工具</a>
+<a href="../../quality/tools/">Tools</a>
 </li>
 </ul>
 </li>
@@ -141,7 +141,7 @@
                                 </a>
 </li>
 <li>
-<a href="../infra/" rel="prev">
+<a href="../infrastructure/" rel="prev">
                                     Next <i class="fa fa-arrow-right"></i>
 </a>
 </li>
@@ -153,16 +153,23 @@
 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
 <ul class="nav bs-sidenav">
 <li class="main active"><a href="#_1">其他實作項目</a></li>
+<li><a href="#_2">客端連線管理</a></li>
+<li><a href="#_3">斷線回復</a></li>
 </ul>
 </div></div>
 <div class="col-md-9" role="main">
-<h1 id="_1">其他實作項目</h1>
+<h2 id="_1">其他實作項目</h2>
+<hr/>
+<h4 id="_2">客端連線管理</h4>
 <ul>
-<li>客端連線管理<ul>
-<li>斷線回復</li>
+<li>提供服務器前後端的連線管理機制</li>
+<li>對應遊戲系統的操作請求可正確的發送給對應的用戶</li>
 </ul>
-</li>
-</ul></div>
+<h4 id="_3">斷線回復</h4>
+<ul>
+<li>針對各遊戲類型的需求實現斷線回復機制。例如老虎機的斷點、人人對戰的託管與回座</li>
+</ul>
+<p><a href="../">返回</a></p></div>
 </div>
 <footer class="col-md-12">
 <hr/>
